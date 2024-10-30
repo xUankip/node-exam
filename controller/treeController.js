@@ -6,7 +6,7 @@ exports.createNewTree = async (req, res) => {
     res.redirect('/treeForm');
 };
 exports.createNewTreeForm = (req, res) => {
-    res.render('treeFrom.ejs');
+    res.render('treeForm.ejs');
 };
 exports.getTrees = async (req, res) => {
     try {
